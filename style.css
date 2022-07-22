@@ -1,53 +1,65 @@
 *{
-    font-family: 'Cormorant SC', serif;
-    font-family: 'Gentium Book Plus', serif;
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Roboto', sans-serif;
-}
-body{
     margin: 0;
     padding: 0;
 }
-#nav-bar{
-    background-color: #b4b6b3;
-    overflow: auto;
-}
-#nav-bar img{
-    padding-left: 50px;
-    float: left;
-}
-#menu ul{
-    float: right;
-}
-#menu ul li{
-    display: inline-block;
-    padding: 20px 35px;
-}
-#menu ul a{
-    text-decoration: none;
-    color: black;
-    font-weight: 200;
-}
-#poster img{
-    background-repeat: no-repeat;
+#section1{
+    background-image: url(../project-3/images/billboard.jpg);
+    width: 100%;
+    height: 100vh;
     background-position: center;
     background-size: cover;
-    height: 100vh;
-    width: 100%;
-}
-#bottom-bar{
-    background-color: #b4b6b3;
     overflow: auto;
 }
-#bottom-bar p{
-    padding:20px 25px;
-    float: left;
+#section1 nav{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 100px;
 }
-#bottom-bar input{
+#section1 nav li{
     float: right;
-    margin: 25px 100px;
-    background-color: #02c1ef;
+    list-style-type: none;
+    padding: 40px ;
+}
+#nav-img{
+    float: left;
+    padding-left: 30px;
+}
+#section1 nav li a{
+    text-decoration: none;
+    color: black;
+}
+#top{
+    margin-bottom: 75vh;
+}
+#bottom{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 100px;
+    
+}
+#bottom p{
+    font-size: 25px;
+    float: left;
+    padding: 35px;
+    width: 50%;
+}
+#btn{
+    float: right;
+    padding: 30px;
+    margin-left: 100px;
+}
+#btn input{
+    padding: 10px;
+    font-size: 18px;
     border: 0px;
-    padding: 10px 30px;
+    background-color: #50ccff;
     color: white;
+}
+#btn input:hover{
+    background-color: red;
+}
+nav ul li:hover{
+    background-color:orangered;
+    color: white;
+    transition: 2s all;
 }
