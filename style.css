@@ -1,65 +1,56 @@
-*{
+body{
     margin: 0;
-    padding: 0;
 }
-#section1{
+#container{
     background-image: url(../project-3/images/billboard.jpg);
-    width: 100%;
     height: 100vh;
+    width: 100%;
     background-position: center;
     background-size: cover;
-    overflow: auto;
+    background-repeat: no-repeat;
+    position: absolute;
 }
-#section1 nav{
-    background-color: rgba(255, 255, 255, 0.5);
+.trans-nav, .get-in-touch{
+    background-color: rgb(255, 255, 255,0.6);
     width: 100%;
-    height: 100px;
+    height: 11vh;
+    position: absolute;
 }
-#section1 nav li{
-    float: right;
-    list-style-type: none;
-    padding: 40px ;
-}
-#nav-img{
+#trans-nav img,#txt-git{
     float: left;
-    padding-left: 30px;
+    padding: 20px;
 }
-#section1 nav li a{
+#logo{
+    margin-left: 50px;
+}
+#list-nav,#git-btn{
+    float: right;
+}
+#list-nav{
+    padding:28px 250px;
+}
+#list-nav li{
+    float: left;
+    list-style-type: none;
+    padding-right: 20px;
+}
+#list-nav li a{
     text-decoration: none;
     color: black;
 }
-#top{
-    margin-bottom: 75vh;
+.get-in-touch{
+    bottom: 0;
 }
-#bottom{
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 100%;
-    height: 100px;
-    
+
+#git-btn{
+    margin: 18px 50px;
+    font-size: 13px;
 }
-#bottom p{
-    font-size: 25px;
-    float: left;
-    padding: 35px;
-    width: 50%;
-}
-#btn{
-    float: right;
-    padding: 30px;
-    margin-left: 100px;
-}
-#btn input{
-    padding: 10px;
-    font-size: 18px;
-    border: 0px;
-    background-color: #50ccff;
-    color: white;
-}
-#btn input:hover{
-    background-color: red;
-}
-nav ul li:hover{
-    background-color:orangered;
-    color: white;
-    transition: 2s all;
+#git-btn input{
+     padding: 12px;
+     width: 250px;
+     color: #fff;
+     background-color: #25c4ec;
+     border: 0;
+     font-size: 16px;
 }
