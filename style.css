@@ -8,7 +8,8 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
+    position: relative;
+    overflow: auto;
 }
 .trans-nav, .get-in-touch{
     background-color: rgb(255, 255, 255,0.6);
@@ -53,4 +54,119 @@ body{
      background-color: #25c4ec;
      border: 0;
      font-size: 16px;
+}
+#git-btn input:hover{
+    background-color: red;
+    transition: 2s all;
+}
+#list-nav li a:hover{
+    color:red;
+    transition: 1s all;
+}
+#services,#testimonials{
+    width: 70%;
+    background-color: #fbfbfb;
+    margin: 0px 250px;
+}
+.service-head{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    color: #484848;
+}
+.services-provide{
+    text-align: center;
+    display:inline-block;
+    padding: 20px;
+    margin: 25px;
+}
+.services-provide h4{
+    font-size: 20px;
+    color: #484848;
+}
+.services-provide p{
+    color:#707070;
+}
+#projects{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition:2s;
+}
+.project-img{
+    width: 305px;
+}
+.project-img,.test-img:hover{
+    transform: scale(1.5);
+}
+.testimonials-head{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.testimonials-list{
+    text-align: center;
+    display:inline-block;
+    padding: 20px;
+    margin: 25px;
+}
+.test-img{
+    border-radius: 50%;
+    transition: 1s;
+}
+.testimonials-list h4{
+    font-size: 20px;
+}
+.testimonials-list p{
+    color:#707070;
+}
+section{
+    width: 100%;
+    background-color: #F0F0F0;
+}
+#client-logo{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 15px;
+}
+.footer-container{
+    background-color: #353535;
+    height: 400px;
+    width: 100%;
+}
+#footer-git{
+    width: 70%;
+    height: 80px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: #434343;
+    color: #fff;
+}
+#footer-items-container{
+    width: 70%;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    /* border: 3px solid purple; */
+}
+#location,#company,#support,#ark-studio{
+    text-align: justify;
+    padding: 40px 0px;
+    line-height:1.5; 
+}
+#company ul,#support ul{
+    list-style-type: none;
+    padding-left: 0px;
+    line-height:1.5;
+}
+#copy-rights{
+    text-align: center;
+    color: #fff;
 }
